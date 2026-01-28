@@ -1,0 +1,22 @@
+cb : 2
+
+1. WHOIS Lookup (Passive)
+whois google.com
+
+2. theHarvester (Emails & Subdomains)
+
+theHarvester -d google.com -b google
+
+3. DNS Enumeration (Passive)
+
+dig google.com
+
+4. Google Dorking from Terminal (Optional)
+
+sudo apt install googler -y
+
+Search:
+googler site:google.com filetype:pdf
+
+Technology Detection (Passive)
+whatweb google.com
