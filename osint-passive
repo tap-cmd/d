@@ -6,6 +6,8 @@ whois google.com
 2. theHarvester (Emails & Subdomains)
 
 theHarvester -d google.com -b google
+theHarvester -d google.com -b bing
+
 
 3. DNS Enumeration (Passive)
 
