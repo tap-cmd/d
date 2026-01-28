@@ -1,0 +1,66 @@
+📌 Step 1: Open Kali Linux Terminal
+
+Update system:
+
+sudo apt update
+
+📌 Step 2: Launch SET Toolkit
+
+Run:
+
+sudo setoolkit
+
+
+You will see:
+
+Social-Engineer Toolkit (SET)
+
+📌 Step 3: Accept Disclaimer
+
+Press:
+
+👉 Y + Enter
+
+📌 Step 4: Choose Attack Type
+
+Type:
+
+1
+
+
+👉 (Social-Engineering Attacks)
+
+📌 Step 5: Choose Website Attack Vectors
+
+Type:
+
+2
+
+📌 Step 6: Choose Credential Harvester Attack
+
+Type:
+
+3
+
+📌 Step 7: Choose Site Cloner
+
+Type:
+
+2
+
+📌 Step 8: Enter IP Address
+
+For lab (your system):
+
+Type:
+
+127.0.0.1
+
+📌 Step 9: Enter Target Website to Clone
+
+Example (demo):
+
+http://testphp.vulnweb.com
+
+
+(Safe testing site)
