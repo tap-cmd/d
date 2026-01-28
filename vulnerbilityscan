@@ -1,0 +1,22 @@
+🔍 Step 1: Update Tools
+sudo apt update
+
+🔍 Step 2: Basic Nmap Scan
+nmap scanme.nmap.org
+
+✔ Finds:
+Open ports
+Running services
+
+🔍 Step 3: Service & Version Detection
+nmap -sV scanme.nmap.org
+
+✔ Shows:
+Software versions (possible weak points)
+
+🔍 Step 4: Vulnerability Script Scan
+nmap --script vuln scanme.nmap.org
+✔ Detects known vulnerabilities
+
+🌐 Step 5: Web Vulnerability Scan (Nikto)
+nikto -h http://scanme.nmap.org
