@@ -1,0 +1,42 @@
+
+open zenmap
+in command type  nmap -O 192.168.2.162 
+
+or 
+
+Step 1: Open Kali Terminal
+🔍 Step 2: Host Discovery (Find Live Hosts)
+
+Example (single target):
+
+nmap -sn scanme.nmap.org
+
+
+or network scan:
+
+nmap -sn 172.16.6.0/24
+
+
+👉 Shows which hosts are online.
+
+🔓 Step 3: Port Scanning
+
+Basic scan:
+
+nmap scanme.nmap.org
+
+
+👉 Finds open ports.
+
+🧠 Step 4: Service Version Detection
+nmap -sV scanme.nmap.org
+
+
+👉 Identifies running services and their versions.
+
+📊 Step 5: OS Detection (optional)
+sudo nmap -O scanme.nmap.org
+
+
+👉 Tries to identify operating system.
+
